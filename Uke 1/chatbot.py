@@ -44,3 +44,6 @@ while valg!=0:
 
 
 print("\033[95m Ha det bra! \033[0m")
+
+
+    
