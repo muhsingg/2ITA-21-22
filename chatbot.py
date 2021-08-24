@@ -1,7 +1,7 @@
 import time
 
 
-valg = 1
+valg = 99
 
 print("Hei og velkommen. Bruk denne botten for å bli bedre kjent med meg \n \n")
 
