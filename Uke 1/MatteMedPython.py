@@ -1,5 +1,3 @@
-
-
 #Regne ut areal av firekant:
 hoyde = int(input("Skriv høyden: "))
 bredde = int(input("Skriv bredden:"))
