@@ -1,0 +1,35 @@
+body {
+    font-family: 'Courier New';
+}
+
+
+
+h1 {
+    color: red;
+}
+
+
+.boks {
+    height: 200px;
+    width: 200px;
+    border: solid 1px gray; 
+    background-color: green;
+}
+
+
+.boks input {
+    margin-left: 50px;
+    margin-top: 40px;
+
+    background-color:darkblue;
+    color: white;
+    padding: 10px;
+
+    border: 1px solid yellow;
+}
+
+
+
+img {
+    width: 350px;
+}

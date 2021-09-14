@@ -1,0 +1,60 @@
+body, h1 {
+    margin: 0;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    border-left: 1px solid white;
+}
+
+nav a{
+    display: block;
+    padding: 15px 15px;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: red;
+}
+
+main {
+    border: 2px solid green;
+    height: 600px;
+    width: 760px;
+    margin: auto;
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    height: 200px;
+    width: 300px;
+    background-color: green;
+
+    margin: auto;
+    margin-top: 10px;
+
+    text-align: center;
+
+
+}

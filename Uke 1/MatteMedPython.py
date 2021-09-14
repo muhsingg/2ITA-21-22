@@ -1,18 +1,32 @@
-#Regne ut areal av firekant:
-hoyde = int(input("Skriv høyden: "))
-bredde = int(input("Skriv bredden:"))
+import random
 
-areal = bredde*hoyde
-omkrets = 2*bredde + 2*hoyde
+#Legge sammen to tall
+def addere():    
+    tall1 = input("Gi meg et tall: ")
+    tall2 = input("Gi meg et annet tall: ")
 
-print("Arealet til objektet er: " + str(areal))
-print("Omkretsen er: " + str(omkrets))
+    sum = int(tall1)+int(tall2)
+
+    print("Summen av", tall1, "og", tall2, "er", sum)
+
+#Multiplisere to tall
+def multiplisere():
+    tall1 = input("Gi meg et tall: ")
+    tall2 = input("Gi meg et annet tall: ")
+
+    produkt = int(tall1)+int(tall2)
+
+    print("Prduktet av", tall1, "og", tall2, "er", produkt)
 
 
-#Regne ut areal av en trekant
-grunnlinje = int(input("Hva er grunnlinja: "))
-hoyde = int(input("Hva er høyden: "))
-areal = grunnlinje*hoyde/2
-print("Arealet er : " + str(areal))
+mylist = ["apple", "banana", "cherry"]
+
+
+for i in range(5):
+    print(i)
+
+
+for navn in mylist:
+    print(navn)
 
 

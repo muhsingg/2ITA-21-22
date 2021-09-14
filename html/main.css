@@ -1,0 +1,130 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #EEE;
+}
+
+header { 
+    background-color: red;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+    padding-right: 142px;
+}
+
+@media only screen and (max-width: 700px) {
+    header nav {
+      flex-direction:column;
+  }
+
+
+}
+
+header nav .meny {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .meny li:not(:last-child) {
+    border-right: 1px solid gray;
+}
+
+
+
+header nav .meny li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+header nav .meny li:hover a {
+    background-color: #F7A800;
+}
+
+
+
+
+main {
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+section {
+    margin: 50px;
+}
+
+.login{
+    border: 1px solid silver;
+    background-color: rgb(206, 206, 206);
+   
+    width: 300px;
+
+   
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+
+.boxTop{
+    text-align: center;
+    height: 40px;
+    background-color: rgb(177, 176, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.boxBody {
+    padding: 30px;
+
+
+}
+
+.boxBody form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 220px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+    box-sizing: content-box;
+}
+
+input[type=submit] {
+    background-color: rgb(153, 238, 113);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+  }
